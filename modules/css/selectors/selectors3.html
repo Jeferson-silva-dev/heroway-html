@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>CSS - Selectors</title>
+</head>
+
+<body>
+  <div class="page-1">
+    <section class="section-1">
+      <section class="section-2">
+        <input class="styled-input" placeholder="Digite..." />
+      </section>
+    </section>
+  </div>
+</body>
+
+<style>
+  .styled-input {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: gold;
+  }
+
+  /* Herança "pulando camadas" */
+  .page-1 .styled-input {
+    background-color: orange;
+  }
+
+  /* Herança "acessando camadas" */
+  /* Melhor opção, porém, cuidado ao criar varias camadas! */
+  .page-1>.section-1>.section-2>.styled-input {
+    background-color: salmon;
+  }
+</style>
+
+</html>

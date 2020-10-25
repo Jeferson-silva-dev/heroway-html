@@ -1,0 +1,17 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: lightblue;
+    height: 80px;
+    max-width: 0 auto;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+    }
+
+    .nav > .menu{
+        display: flex;
+        width: 320px;
+        justify-content: space-around;
+    }
