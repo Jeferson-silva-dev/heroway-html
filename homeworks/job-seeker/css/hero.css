@@ -9,12 +9,24 @@
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    max-width: 800px;
+    max-width: auto;
     width: 100%;
-    padding: 0 20px;
+    padding: 0px 20px;
+}
+
+.section-hero > .container > .titulo{
+    font-weight: 2000;
+    font-size: 310%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.section-hero > .container > .subtitulo{
+    color: #cccccc;
+    text-shadow: 1px 1px 3px #000000;
+    font-size: 200%;
+
 }
 
 .section-hero > .container img{
-    width: 200px;
-    height: 200px;
-}
+    width: 500px;
+    height: 350px;
+}   

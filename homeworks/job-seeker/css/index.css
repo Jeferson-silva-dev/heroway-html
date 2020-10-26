@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
 @import 'nav.css';
 @import 'hero.css';
+@import 'input.css';
 
 * {
   box-sizing: border-box;
@@ -11,6 +12,11 @@
 body,
 
 html{
-    font: 16px "Montserrat", sans-serif;
+    font: "Montserrat", sans-serif;
     scroll-behavior: smooth;
+}
+
+.color-blue{
+  color: blue;
+
 }
